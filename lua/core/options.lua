@@ -16,7 +16,13 @@ opt.ignorecase = true
 opt.smartcase = true
 
 -- cursor line
-opt.cursorline = false
+opt.cursorline = true
 
 -- turn off swapfile
 opt.swapfile = false
+
+-- always split to the right
+vim.o.splitright = true
+
+-- add borders to floats
+vim.o.winborder = "rounded"
